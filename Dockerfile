@@ -1,4 +1,4 @@
-FROM linuxserver/webtop:debian-kde-945dadaa-ls205
+FROM linuxserver/webtop:debian-kde-d5b21d2c-ls206
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.
